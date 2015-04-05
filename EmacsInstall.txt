@@ -1,0 +1,12 @@
+sudo yum install gcc make ncurses-devel
+#
+wget http://ftp.jaist.ac.jp/pub/GNU/emacs/emacs-24.4.tar.gz
+git clone https://github.com/ejmr/php-mode.git
+wget http://csharpmode.googlecode.com/files/CsharpToolsForEmacs.2011may13.zip
+tar zxvf emacs-24.4.tar.gz
+cd emacs-24.4/
+./configure --without-x --without-selinux
+make
+sudo make install
+
+
